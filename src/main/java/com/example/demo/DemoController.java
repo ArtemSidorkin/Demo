@@ -8,7 +8,7 @@ public class DemoController
 {
 	@RequestMapping(method = RequestMethod.POST, path = "/api/test")
 	@ResponseBody
-	public void CreteDemoObject(@RequestBody @Validated CreateDemoObjectRequest createDemoObjectRequest)
+	public void creteDemoObject(@RequestBody @Validated CreateDemoObjectRequest createDemoObjectRequest)
 	{
 		System.out.println("Demo object: " + createDemoObjectRequest + " created");
 	}
