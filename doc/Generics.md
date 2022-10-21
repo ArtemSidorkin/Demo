@@ -12,7 +12,7 @@
     
     int sum = 0;
     
-    for (int i = 0; i < accounts.size(); i++) sum += (Integer) accounts.get(0);
+    for (int i = 0; i < accounts.size(); i++) sum += (Integer) accounts.get(i);
     
     System.out.println(sum);
 
@@ -26,7 +26,7 @@
 
     int sum = 0;
 
-    for (int i = 0; i < accounts.size(); i++) sum += accounts.get(0);
+    for (int i = 0; i < accounts.size(); i++) sum += accounts.get(i);
 
     System.out.println(sum);
 
