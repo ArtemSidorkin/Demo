@@ -118,7 +118,10 @@ _
 
 _
 
-    Stream.of(1, 1, 2, 2, 3, 3).distinct().forEach(System.out::println);
+    > Task :Main.main()
+    1
+    2
+    3
 
 #### all match
 
