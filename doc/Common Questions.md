@@ -88,12 +88,12 @@ _
 - https://www.youtube.com/channel/UCwHL6WHUarjGfUM_586me8w
 - https://github.com/donnemartin/system-design-primer
 
-#Паттерны
+# Паттерны
 
 - Э. Гамма и др. Паттерны объектно-ориентированного проектирования (2020)
 - https://ru.wikipedia.org/wiki/Design_Patterns
 
-#Рефакторинг
+# Рефакторинг
 
 - Макконнелл С. "Совершенный код"
 - https://refactoring.guru/ru (доступ через прокси/vpn)
