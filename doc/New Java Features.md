@@ -368,8 +368,27 @@ _
 _
 
     public record Note(String title, String text) {}
+    
+Ограничения:
+
+- неизменяемы (поскольку их поля являются private и final)
+
+- неявно final
+
+- невозможно определить дополнительные поля экземпляра
+
+- всегда наследует от Record класса
+
+Однако можно:
+
+- определить дополнительные методы
+
+- реализовать интерфейсы
+
+- кастомизировать канонический конструктор и аксессоры    
 
 ## Полезные ссылки
 
 - https://habr.com/ru/post/593243/
+- https://habr.com/ru/post/575392/
 - https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Stream.html
